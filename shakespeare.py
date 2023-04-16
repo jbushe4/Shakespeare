@@ -20,7 +20,7 @@ st.markdown('''
 ''')
 
 #Create a dictionary (not a list)
-books = {' ':' ',"A Mid Summer Night's Dream":'Data/summer.txt',"The Merchant of Venice":'Data/merchant.txt',"Romeo and Juliet":'Data/romeo.txt' }
+books = {' ':' ',"A Mid Summer Night's Dream":'summer.txt',"The Merchant of Venice":'merchant.txt',"Romeo and Juliet":'romeo.txt' }
 
 #Create a sidebar
 st.sidebar.header('Word Cloud Settings')
