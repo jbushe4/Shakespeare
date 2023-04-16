@@ -7,6 +7,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import glob, nltk, os, re
 from nltk.corpus import stopwords 
 import plotly.express as px
+nltk.download('stopwords')
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
