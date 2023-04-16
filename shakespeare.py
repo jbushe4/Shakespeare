@@ -6,7 +6,6 @@ import streamlit as st
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import glob, nltk, os, re
 from nltk.corpus import stopwords 
-from tkinter import *
 import plotly.express as px
 
 
