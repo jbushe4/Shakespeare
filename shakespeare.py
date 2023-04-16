@@ -8,6 +8,7 @@ import glob, nltk, os, re
 from nltk.corpus import stopwords 
 import plotly.express as px
 nltk.download('stopwords')
+nltk.download('punkt')
 
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
